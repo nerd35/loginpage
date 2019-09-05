@@ -1,4 +1,5 @@
 .formsection{
+    width :100%;
     background-color:  #3c88b5;
 }
 .formfield{
@@ -9,5 +10,16 @@
     width: 400px;
 }
 .registerText{
-    font-size: 20px;
+    font-size: 25px !important;
+    font-weight: 600;
 }
+ @media screen and (max-width: 560){
+    .formfield{
+        width: 200px;
+        margin-top: 100px;
+    }
+    .inputfield{
+        width: 100px;
+    }
+
+ }

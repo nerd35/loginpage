@@ -7,7 +7,7 @@ import Register from './components/LoginForm/Register';
 
 ReactDOM.render(
     <Provider store={store}>
-        <LoginForm />
+        <Register/>
     </Provider>,
     document.getElementById('root')
 );
